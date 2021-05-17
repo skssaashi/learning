@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/jaago"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="55dp"
+        android:background="#FF0000"
+        android:baselineAligned="false"
+        android:onClick="captureVideo"
+        android:text="@string/capture_video"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/navigate"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="450dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/green"
+        android:isScrollContainer="false"
+        android:onClick="playVideo"
+        android:text="@string/navigate"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

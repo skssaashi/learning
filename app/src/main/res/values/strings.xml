@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Testcase</string>
+    <string name="navigate">Navigate</string>
+    <string name="capture_video">Capture Video</string>
+</resources>
